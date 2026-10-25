@@ -10,7 +10,7 @@ while True:
             break
         else:
             # Convert expense to integer and add to total
-            total+=int(expense)
+            total+=float(expense)
     # Catches non-numeric inputs and prints an error message
     except ValueError:
         print("Invalid data.")
